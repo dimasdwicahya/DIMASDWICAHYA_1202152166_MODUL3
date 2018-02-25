@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dimasdwicahya.dimasdwicahya_1202152166_modul3.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+
+        >
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="213dp"
+            android:layout_height="258dp"
+            app:srcCompat="@drawable/logo_aqua"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:layout_gravity="center"/>
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etUsername"
+            android:padding="16dp"
+            android:hint="Username"
+            android:layout_marginBottom="16dp"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:textColorLink="@color/colorPrimaryDark"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPassword"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:hint="Password"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:layout_marginBottom="16dp"
+            android:textColorLink="@color/colorPrimaryDark"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:id="@+id/btLogin"
+            android:text="Login"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:onClick="aksiLogin"
+            />
+
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
